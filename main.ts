@@ -17,7 +17,6 @@ let Jugador_principal = sprites.create(img`
     . . e e e e . . . . e e e e . . 
     `, SpriteKind.Player)
 Jugador_principal.setPosition(80, 60)
-Jugador_principal.setVelocity(100, 100)
 controller.moveSprite(Jugador_principal)
 Jugador_principal.setStayInScreen(true)
 scene.setBackgroundColor(6)
